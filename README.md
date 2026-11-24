@@ -98,6 +98,50 @@ FarmLink is a digital marketplace (web + mobile app) where farmers and FPOs list
 
 6.Order data feeds back into the forecasting model.
 
+## Technical Flow Diagram
+
+```
++--------------------------+
+| Farmers and FPOs         |
++--------------------------+
+
+             |
+             v
+             
++--------------------------+
+| Crop and Harvest Details |
++--------------------------+
+
+             |
+             v
+             
++--------------------------+
+| Buyer Demand Booking     |
++--------------------------+
+
+             |
+             v
+             
++--------------------------+
+| Demand and Supply        |
+| Matching System          |
++--------------------------+
+
+             |
+             v
+             
++--------------------------+
+| Village Collection Hub   |
++--------------------------+
+
+             |
+             v
++--------------------------+
+| Retailers, Hotels and    |
+| Other Buyers             |
++--------------------------+
+```
+
 ## Feasibility and Viability
 
 **1. Feasibility**
@@ -157,14 +201,7 @@ FarmLink is a digital marketplace (web + mobile app) where farmers and FPOs list
 
 ## Research and References
 
-**Research and References**
-
-1.eNAM (National Agriculture Market): enam.gov.in
-
-2.Agmarknet (mandi price data): agmarknet.gov.in
-
-3.ONDC (Open Network for Digital Commerce): ondc.org
-
-4.Ministry of Consumer Affairs, Price Monitoring Division: consumeraffairs.nic.in
-
-5.PM-Kisan and FPO promotion scheme (Ministry of Agriculture)
+1. Smart India Hackathon Problem Statement Repository: https://github.com/selvasachein/SIH-26033
+2. Django Documentation: https://docs.djangoproject.com/
+3. Ministry of Agriculture and Farmers Welfare: https://agriwelfare.gov.in/
+4. OpenStreetMap: https://www.openstreetmap.org/
